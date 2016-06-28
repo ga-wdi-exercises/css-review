@@ -32,10 +32,26 @@ p .el{
 }
 ```
 
+- Every element with the class of "el", and every paragraph
+
+```
+.el, p{
+  outline:1px solid red;
+}
+```
+
 - Every paragraph that's inside an element with the class of "el"
 
 ```
 .el p{
+  outline:1px solid red;
+}
+```
+
+- Only paragraphs that are direct children of an element with the class of "el"
+
+```
+.el > p{
   outline:1px solid red;
 }
 ```
