@@ -26,7 +26,19 @@ From `selectors.css`, copy and paste the appropriate snippet of code that will *
 
 ```
 
+- Every element with the class of "el", and every paragraph
+
+```
+
+```
+
 - Every paragraph that's inside an element with the class of "el"
+
+```
+
+```
+
+- Only paragraphs that are direct children of an element with the class of "el"
 
 ```
 

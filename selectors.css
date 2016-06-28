@@ -31,12 +31,20 @@ input[type=radio]~label{
   outline:1px solid red;
 }
 
+.el, p{
+  outline:1px solid red;
+}
+
 a:active:after{
   content:"!";
   outline:1px solid red;
 }
 
 input[type=radio]:checked+label{
+  outline:1px solid red;
+}
+
+.el > p{
   outline:1px solid red;
 }
 
