@@ -2,30 +2,38 @@
 
 ## Download
 
-(Once you've had an intro to Git and Github, these steps will no longer be necessary.)
+Clone this repo...
 
-Click the "Download ZIP" button toward the top-right of this page. This will download a `.zip` file to your Desktop (or your "Documents" folder, or your "Downloads" folder, depending on how your computer's set up).
+```bash
+$ git@github.com:ga-wdi-exercises/css-review.git
+```
 
-It may automatically "expand" and turn into a folder with the same name. If it doesn't, double-click on the `.zip` file, or right-click on it and select "Expand".
+Open the cloned directory in Atom...
 
-Move the expanded folder into your `wdi` folder to keep everything organized.
+```bash
+$ cd css-review
+$ atom .
+```
+> If you are using a different text editor, you will not be using the `atom` Terminal command.
 
 ## Instructions
 
-Provided are a bunch of `.md` files, and a bunch of `.css` files.
+Provided are a bunch of stylesheets (`.css`) and their corresponding `.md` files.
 
 The `.css` files contain a bunch of CSS snippets. The `.md` files contain English descriptions of what all those CSS snippets do -- but in a different order.
 
 Your job is to copy each CSS snippet and paste it next to its description in one of the `.md` files.
 
-For example:
+#### An Example
 
-A CSS snippet:
+A CSS snippet...
+
 ```
-background-color:red;
+background-color: red;
 ```
 
-An `.md` file:
+An `.md` file...
+
 ```
 Gives el a red background
 ` ` `
@@ -35,7 +43,8 @@ Gives el a red background
 ` ` `
 ```
 
-...and the solution in the `.md` file:
+The CSS snippet pasted in the correct section of the `.md` file...
+
 ```
 Gives el a red background
 ` ` `
@@ -45,24 +54,23 @@ Gives el a red background
 ` ` `
 ```
 
-## To solve this...
+## To Solve This...
 
-First, look at the words used in the CSS snippets. What do the words mean in English? For instance, if you see `background-color:red`, it's pretty obvious what that does.
+First, look at the words used in the CSS snippets. What do the words mean in English? For instance, if you see `background-color: red`, it's pretty obvious what that does.
 
 If you're not sure about a particular snippet, put it in the provided `index.html` and see how its appearance is affected.
 
-1. Open the provided `index.html` file in your web browser. (Drag and drop the file onto the icon of a web browser on your computer.)
-2. Copy and paste the snippet into the section marked `PUT YOUR CSS HERE`.
-3. "Save" the `index.html` file.
-4. "Refresh" the page in your browser to see what changes have been applied.
+1. Open the provided `index.html` file in your web browser. You can do that by entering `$ open index.html` from the exercise directory in the Terminal.  
+2. Copy and paste the snippet into the section marked `PUT YOUR CSS HERE`.  
+3. "Save" the `index.html` file.  
+4. "Refresh" the page in your browser to see what changes have been applied.  
 
 If you're still unsure, try Googling the name of the CSS property in question (e.g. "CSS background-color").
 
-## What is "el"?
+## What Is `el`?
 
 "El" is short for "element". Often, "el" is used in Javascript to refer to a certain element. In this case, when you're told to "do something with el," it means "do something with all elements with the class of 'el'".
 
 ## Hint
 
-If you've copied and pasted some strange CSS and refreshed the page, but it doesn't look any different, the CSS may only affect its appearance when the screen or particular elements are bigger or smaller than a certain size. 
-
+If you've copied and pasted some strange CSS and refreshed the page but it doesn't look any different, the CSS may only affect its appearance when the screen or particular elements are bigger or smaller than a certain size.
