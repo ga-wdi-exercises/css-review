@@ -70,7 +70,7 @@ If you're still unsure, try Googling the name of the CSS property in question (e
 
 ## What Is `el`?
 
-"El" is short for "element". Often, "el" is used in Javascript to refer to a certain element, `var el = document.getElementByID("some-id-name")`. In the context of this exercise, when you're told to "do something with el," it means "do something with all HTML elements with the class of 'el'".
+"El" is short for "element". Often, "el" is used in Javascript to refer to a certain element, `var el = document.getElementById("some-id-name")`. In the context of this exercise, when you're told to "do something with el," it means "do something with all HTML elements with the class of 'el'".
 
 ## Hint
 
