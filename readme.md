@@ -16,9 +16,10 @@ $ atom .
 ```
 > If you are using a different text editor, you will not be using the `atom` Terminal command.
 
-## Instructions
+## Matching Exercise
 
 Provided are a bunch of stylesheets (`.css`) and their corresponding `.md` files.
+> e.g. `positioning.css` and `positioning.md`
 
 The `.css` files contain a bunch of CSS snippets. The `.md` files contain English descriptions of what all those CSS snippets do -- but in a different order.
 
@@ -69,7 +70,7 @@ If you're still unsure, try Googling the name of the CSS property in question (e
 
 ## What Is `el`?
 
-"El" is short for "element". Often, "el" is used in Javascript to refer to a certain element. In this case, when you're told to "do something with el," it means "do something with all elements with the class of 'el'".
+"El" is short for "element". Often, "el" is used in Javascript to refer to a certain element, `var el = document.getElementByID("some-id-name")`. In the context of this exercise, when you're told to "do something with el," it means "do something with all HTML elements with the class of 'el'".
 
 ## Hint
 
