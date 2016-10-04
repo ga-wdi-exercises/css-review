@@ -25,24 +25,26 @@ The `.css` files contain a bunch of CSS snippets. The `.md` files contain Englis
 
 Your job is to copy each CSS snippet and paste it next to its description in one of the `.md` files.
 
-#### An Example
+This is also going to require testing your css with `index.html`. More on that below.
 
-A CSS snippet...
+#### Example Matching Exercise Answer
 
-```
-background-color: red;
-```
+In a CSS snippet...
 
-An `.md` file...
+> ```
+> background-color: red;
+> ```
 
-```
-Gives el a red background
-` ` `
-.el{
-
-}
-` ` `
-```
+In a `.md` file...
+>
+> ```
+> Gives el a red background
+> ` ` `
+> .el{
+>
+> }
+> ` ` `
+> ```
 
 The CSS snippet pasted in the correct section of the `.md` file...
 
@@ -55,7 +57,7 @@ Gives el a red background
 ` ` `
 ```
 
-## To Solve This...
+## Testing the CSS
 
 First, look at the words used in the CSS snippets. What do the words mean in English? For instance, if you see `background-color: red`, it's pretty obvious what that does.
 
