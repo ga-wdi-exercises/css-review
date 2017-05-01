@@ -8,12 +8,6 @@ From `sizing.css`, copy and paste the appropriate snippet of code that will...
 /* Insert CSS selector here... */
 ```
 
-- Overlay a "wall" on top of el that is 5 pixels of solid red
-
-```css
-/* Insert CSS selector here... */
-```
-
 - Put 5 pixels of space between el's border and the elements next to it in all directions
 
 ```css
