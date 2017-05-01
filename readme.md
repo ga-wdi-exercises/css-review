@@ -5,7 +5,7 @@
 Clone this repo...
 
 ```bash
-$ git@github.com:ga-wdi-exercises/css-review.git
+$ git clone git@github.com:ga-wdi-exercises/css-review.git
 ```
 
 Open the cloned directory in Atom...
